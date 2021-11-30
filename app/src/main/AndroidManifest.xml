@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediaLearn">
         <activity
+            android:name=".activity.primary.Lesson4Activity"
+            android:exported="false" />
+        <activity
             android:name=".activity.primary.Lesson2And3Activity"
             android:exported="false" />
         <activity
