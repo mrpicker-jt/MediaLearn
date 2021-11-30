@@ -1,4 +1,4 @@
-package com.jt.medialearn;
+package com.jt.medialearn1;
 
 import org.junit.Test;
 
