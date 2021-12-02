@@ -9,6 +9,7 @@ import android.view.View;
 import com.jt.medialearn1.activity.primary.Lesson1Activity;
 import com.jt.medialearn1.activity.primary.Lesson2And3Activity;
 import com.jt.medialearn1.activity.primary.Lesson4Activity;
+import com.jt.medialearn1.activity.primary.Lesson5Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button4:
                 startActivity(new Intent(this, Lesson4Activity.class));
+                break;
+            case R.id.button5:
+                startActivity(new Intent(this, Lesson5Activity.class));
                 break;
         }
     }
