@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediaLearn">
         <activity
+            android:name=".activity.primary.Lesson6Activity"
+            android:exported="false" />
+        <activity
             android:name=".activity.primary.Lesson5Activity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
             android:exported="false" />
