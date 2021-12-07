@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="自定义绘制"/>
-    <view class="com.jt.medialearn.activity.primary.Lesson1Activity$MyImageView"
+    <view class="com.jt.medialearn1.activity.primary.Lesson1Activity$MyImageView"
         android:id="@+id/image2"
         android:layout_width="100dp"
         android:layout_height="100dp"/>

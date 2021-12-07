@@ -10,6 +10,7 @@ import com.jt.medialearn1.activity.primary.Lesson1Activity;
 import com.jt.medialearn1.activity.primary.Lesson2And3Activity;
 import com.jt.medialearn1.activity.primary.Lesson4Activity;
 import com.jt.medialearn1.activity.primary.Lesson5Activity;
+import com.jt.medialearn1.activity.primary.Lesson6Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button5:
                 startActivity(new Intent(this, Lesson5Activity.class));
+                break;
+            case R.id.button6:
+                startActivity(new Intent(this, Lesson6Activity.class));
                 break;
         }
     }
